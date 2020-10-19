@@ -19,7 +19,7 @@ main h2, main h3, main h4, main p, main div, main ul, main dl {
         padding-left: 3em;
         padding-right: 2em;
 }
-nav a{ text-decoration: none;}
+nav a { text-decoration: none;}
 nav a:link {color: #fef6c2;}
 nav a:visited {color: #d2b48c;}
 nav a:hover {color: #cc9933;}
@@ -37,12 +37,14 @@ h4 {
         padding-bottom: 0;
         text-transform: uppercase;
         border-bottom: black;
+        clear: left;
 
 }
 .floatleft {
-        padding-left: 2em;
-        padding-right: 2em;
+       
         float: left;
+        padding-bottom: 2em;
+        padding-right: 2em;
 }
 nav {   text-align: center; 
         font-weight: bold ;
