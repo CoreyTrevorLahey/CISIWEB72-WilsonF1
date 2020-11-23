@@ -163,3 +163,9 @@ tr:nth-of-type(odd)
 {
         background-color: #d2b48e;
 }
+
+form {padding: 2em;}
+label {float: left; display: block; text-align: right; width: 8em; padding-right: 1em;}
+input, textarea {display: block; margin-bottom: 1em;}
+#mysubmit {margin-left: 9.5em;}
+#herojobs {height: 250px; background-image: url(herojobs.jpg); background-size: 100%;}
