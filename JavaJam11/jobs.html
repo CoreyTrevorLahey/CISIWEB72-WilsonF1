@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="javajam.css">
+    <title>JavaJam Coffee House Jobs</title>
+</head>
+<body>
+    <div id="wrapper">
+<header>
+   <h1>JavaJam Coffee House</h1> 
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
+    </ul>      
+</nav>
+<main>
+    <div id="herojobs"></div>
+<br>
+<h2>Jobs at JavaJam</h2>
+<p>Want to work at JavaJam? Fill out the form below to start your application. Required fields are marked with an asterisk (*)</p>
+
+<form method="POST" action="http://webdevbasics.net/scripts/javajam8.php">
+
+   <label for="myName">*Name:</label>
+   <input type="text" name="myName" required>
+ 
+   <label for="myEmail">*Email:</label>
+   <input type="email" name="myEmail" required>
+
+    <label for="myExperience">*Experience:</label>
+  <textarea name="myExperience" id="myExperience" rows="2" cols="20" required></textarea>
+
+  <input type="submit" id="mySubmit" value="Apply Now" name="mySubmit">
+
+</form>
+</main>
+<footer>
+    Copyright &copy; 2018 JavaJam Coffee House
+       <br>
+       <a href="mailto:twilson0015@panther.chaffey.edu">twilson0015@pather.chaffey.edu</a>
+</footer>
+</div>
+</body>
+</html>
