@@ -1,0 +1,187 @@
+body { 
+        background-color: #FCEBB6;
+        background-image: url(background.gif);
+        color: #221811;
+        font-family: Arial, Verdana, sans-serif; }
+
+header { background-color: red;
+        height: 150px;
+        background-image: url(javajamlogo.jpg);
+        background-repeat: no-repeat;}
+
+main {
+        padding: 0 0 0 0;     
+        margin-left: 200px;
+        background-color: #fef6c2;
+}
+header, nav, main, footer { display: block;}
+main h2, main h3, main h4, main p, main div, main ul, main dl {
+        padding-left: 3em;
+        padding-right: 2em;
+}
+nav a { text-decoration: none;}
+nav a:link {color: red;}
+
+nav a:hover {color: maroon;}
+
+nav ul {list-style-type: none;
+        padding-left: 0;}
+h1     {
+        padding-top: 45px;
+        padding-left: 220px;
+        font-size: 3em;}
+h4 {
+        
+        font-size: 1.2em;
+        padding-left: .5em;
+        padding-bottom: 0;
+        text-transform: uppercase;
+        border-bottom: black;
+        clear: left;
+
+}
+.floatleft {
+       
+        float: left;
+        padding-bottom: 2em;
+        padding-right: 2em;
+}
+nav {   text-align: center; 
+        font-weight: bold ;
+        font-size: 1.5em;
+        padding-top: 10px;
+        float: left;
+        width: 200px;
+        }
+nav a {
+        text-decoration: none;
+}
+
+footer { 
+        background-color: #d2b48c;
+        font-size: .90em;
+        font-style: italic;
+        text-align: center;
+        padding-bottom: 10px;
+        border-top: solid 2px #221811;}
+     
+        
+
+#wrapper { 
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        
+        min-width: 900px;
+        max-width: 1280px;
+        box-shadow: 5px 5px 5px #828282; }
+
+.details {
+        padding-left: 0px;
+        padding-right: 0px;
+        overflow: auto;}
+img {
+        padding-left: 10px;
+        padding-right: 10px;
+}
+
+
+#mobile {display: none;}
+#desktop {display: inline;}
+@media only screen and (max-width: 1024px){
+        body { margin: 0;
+                background-image: none;}
+        #wrapper {width: auto;
+                min-width: 0;
+                margin: 0;
+                padding: 0;
+                box-shadow: none;}
+        header {border-bottom: 5px solid #fef6c2;}
+        h1 {margin-top: 0;
+                margin-bottom: 1em;
+                padding-top: 1em;
+                padding-bottom: 1em;
+                font-size: 2.5em;}
+        nav {float: none;
+                width: auto;
+                padding-top: 0;
+                margin: 10px;
+                font-size: 1.3em;}
+        nav li {display: inline-block;}
+        nav a {padding: 1em;
+                width: 8em;
+                font-weight: bold;
+                border-style: none;}
+        nav ul { padding: 0;
+                margin: 0;}
+        
+        main {margin: 0; font-size: 90%;}
+}
+@media only screen and (max-width: 768px) {
+        header { background-image: url(javajammini.jpg);
+                height: 128px;}
+        h1 {font-size: 2em; text-align: center; padding-left: 0;}
+        nav {margin: 0;}
+        nav a {display: block; padding: 0.2em; width: auto; border-bottom: 1px #fef6c2;}
+        nav li {display: block;}
+        main {padding-top: 1px;}
+        h2 {padding-top: 0.5em; padding-left: 0.5em; padding-right: 0; padding-bottom: 0; margin-right: 0.5em; }
+        .details {padding-left: 0; padding-right: 0;}
+       
+        .floatleft {padding-left: 0.5em; padding-right: 0.5em;}
+        #mobile {display: inline;}
+        #desktop {display: none;}
+}
+
+table
+{
+        width: 90%;
+        border-spacing: 0;
+        margin-left: 50px;
+}
+td,th
+{
+        
+        padding: 10px;
+}
+tr:nth-of-type(odd)
+{
+        background-color: #dbc477;
+}
+td{
+        font-weight: bold;
+}
+
+form {padding: 2em;}
+label {float: left; display: block; text-align: right; width: 8em; padding-right: 1em;}
+input, textarea {display: block; margin-bottom: 1em;}
+#mysubmit {margin-left: 9.5em;}
+
+
+audio {margin-top: 1em; display: block; }
+.button {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 325px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #000000;
+	color: #000000;
+	transition: all 0.3s linear;
+}
+.button:hover {
+	background-color: #FEFEFE;
+	color: #dd3a3a;
+	cursor: pointer;
+}
+#contactp {padding-left: 50px;}
