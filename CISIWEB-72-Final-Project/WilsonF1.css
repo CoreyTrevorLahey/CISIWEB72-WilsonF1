@@ -6,7 +6,8 @@ body {
 
 header { background-color:#fd5c1d;
         height: 150px;
-        padding-left: 200px;
+        text-align: center;
+        padding-right: 200px;
         font-style: italic;
         
        }
@@ -16,7 +17,7 @@ main {
         
         background-color: #fef6c2;
 }
-main h2{   padding-left: 2.3em;     }
+main h2{  text-align: center;}
 header,  main, footer { display: block;}
  main h3, main h4, main p, main div, main ul, main dl {
         padding-left: 3em;
@@ -46,13 +47,14 @@ h4 {
         clear: left;
 
 }
+h5{font-size: .9em;}
 .floatleft {
        
         float: left;
         padding-bottom: 2em;
         padding-right: 2em;
 }
-nav {    
+nav {    text-transform: uppercase;
         font-weight: bold;
         font-size: 1.75em;
         padding-top: 0px;
@@ -117,17 +119,14 @@ footer {
         main {margin: 0; font-size: 90%;}
 }
 @media only screen and (max-width: 768px) {
-        header { 
-                height: 128px;}
+        header {height: 128px;}
         h1 {font-size: 2em; text-align: center; padding-left: 0;}
         nav {margin: 0;}
         nav a {display: block; padding: 0.2em; width: auto; border-bottom: 1px #fef6c2;}
         nav li {display: block;}
         main {padding-top: 1px;}
         h2 {padding-top: 0.5em; padding-left: 0.5em; padding-right: 0; padding-bottom: 0; margin-right: 0.5em; }
-        .details {padding-left: 0; padding-right: 0;}
-       
-        .floatleft {padding-left: 0.5em; padding-right: 0.5em;}
+     
         #mobile {display: inline;}
         #desktop {display: none;}
 }
