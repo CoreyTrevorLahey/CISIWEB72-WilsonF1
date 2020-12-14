@@ -4,28 +4,35 @@ body {
         color: #221811;
         font-family: Arial, Verdana, sans-serif; }
 
-header { background-color: red;
+header { background-color:#fd5c1d;
         height: 150px;
-        background-image: url(javajamlogo.jpg);
-        background-repeat: no-repeat;}
+        padding-left: 200px;
+        font-style: italic;
+        
+       }
 
 main {
         padding: 0 0 0 0;     
-        margin-left: 200px;
+        
         background-color: #fef6c2;
 }
-header, nav, main, footer { display: block;}
-main h2, main h3, main h4, main p, main div, main ul, main dl {
+main h2{   padding-left: 2.3em;     }
+header,  main, footer { display: block;}
+ main h3, main h4, main p, main div, main ul, main dl {
         padding-left: 3em;
         padding-right: 2em;
 }
 nav a { text-decoration: none;}
-nav a:link {color: red;}
-
+nav a:link {color:#fd5c1d;}
+nav a:visited{color: red;}
 nav a:hover {color: maroon;}
 
-nav ul {list-style-type: none;
-        padding-left: 0;}
+nav ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        
+        }
 h1     {
         padding-top: 45px;
         padding-left: 220px;
@@ -33,9 +40,8 @@ h1     {
 h4 {
         
         font-size: 1.2em;
-        padding-left: .5em;
-        padding-bottom: 0;
         text-transform: uppercase;
+        text-align: center;
         border-bottom: black;
         clear: left;
 
@@ -46,19 +52,19 @@ h4 {
         padding-bottom: 2em;
         padding-right: 2em;
 }
-nav {   text-align: center; 
-        font-weight: bold ;
-        font-size: 1.5em;
-        padding-top: 10px;
-        float: left;
-        width: 200px;
+nav {    
+        font-weight: bold;
+        font-size: 1.75em;
+        padding-top: 0px;
+        padding-left: 250px;
+        
         }
 nav a {
         text-decoration: none;
 }
 
 footer { 
-        background-color: #d2b48c;
+        background-color: #fd5c1d;
         font-size: .90em;
         font-style: italic;
         text-align: center;
@@ -76,14 +82,7 @@ footer {
         max-width: 1280px;
         box-shadow: 5px 5px 5px #828282; }
 
-.details {
-        padding-left: 0px;
-        padding-right: 0px;
-        overflow: auto;}
-img {
-        padding-left: 10px;
-        padding-right: 10px;
-}
+
 
 
 #mobile {display: none;}
@@ -107,7 +106,7 @@ img {
                 padding-top: 0;
                 margin: 10px;
                 font-size: 1.3em;}
-        nav li {display: inline-block;}
+        nav li {display: flex;}
         nav a {padding: 1em;
                 width: 8em;
                 font-weight: bold;
@@ -118,7 +117,7 @@ img {
         main {margin: 0; font-size: 90%;}
 }
 @media only screen and (max-width: 768px) {
-        header { background-image: url(javajammini.jpg);
+        header { 
                 height: 128px;}
         h1 {font-size: 2em; text-align: center; padding-left: 0;}
         nav {margin: 0;}
@@ -141,9 +140,11 @@ table
 }
 td,th
 {
-        
+        font-size: 1.1em;
         padding: 10px;
+        margin: auto;
 }
+
 tr:nth-of-type(odd)
 {
         background-color: #dbc477;
@@ -152,19 +153,20 @@ td{
         font-weight: bold;
 }
 
-form {padding: 2em;}
+form {  
+        padding-left: 400px;}
 label {float: left; display: block; text-align: right; width: 8em; padding-right: 1em;}
 input, textarea {display: block; margin-bottom: 1em;}
 #mysubmit {margin-left: 9.5em;}
 
 
-audio {margin-top: 1em; display: block; }
+
 .button {
 	width: 200px;
 	margin-top: 40px;
 	margin-right: auto;
 	margin-bottom: auto;
-	margin-left: 325px;
+	margin-left: auto;
 	padding-top: 20px;
 	padding-right: 10px;
 	padding-bottom: 20px;
@@ -184,4 +186,8 @@ audio {margin-top: 1em; display: block; }
 	color: #dd3a3a;
 	cursor: pointer;
 }
-#contactp {padding-left: 50px;}
+#contactp {text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        }
